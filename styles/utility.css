@@ -1,0 +1,54 @@
+
+/* Definindo os paddings do eixo Y (block) */
+.py-base {
+  padding-block: var(--py-base);
+}
+
+.py-lg {
+  padding-block: var(--py-lg);
+}
+
+.py-xl {
+  padding-block: var(--py-xl);
+}
+
+/* Definindo os paddings do eixo X (inline)*/
+.px-lg {
+  padding-inline: var(--px-lg);
+}
+
+.desktop-only {
+  display: none;
+}
+
+.even-columns {
+  /* Em telas pequenas, elementos um a baixo do outro  */
+  display: grid;
+  gap: 1rem;
+}
+
+.container {
+  --max-width: 375px;
+  /* width = O menor valor entre o max-width e (100% menos o padding do eixo X (--px) das duas laterais) */
+  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+  margin-inline: auto;
+  border: solid violet;
+}
+
+@media (width >= 80em) {
+  /* Telas Grandes */
+  .container {
+    /* 1280px/80rem */
+    --max-width: 80rem;
+  }
+
+  .desktop-only {
+    display: initial;
+  }
+
+  .even-columns {
+    /* Em telas grandes, elementos um ao lado do outro  */
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}
