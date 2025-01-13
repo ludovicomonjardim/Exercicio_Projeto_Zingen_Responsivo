@@ -1,0 +1,67 @@
+.btn {
+  /* Variáveis locais */
+  --btn-backgound-color: var(--text-color-primary);
+  --btn-color: var(--background-color);
+
+  border: 0;
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+
+  border-radius: 0.5rem;
+
+  font: var(--fw-md) var(--fs-base/1.5rem var(--ff-sans));
+
+  cursor: pointer;
+
+  background: var(--btn-backgound-color);
+  color: var(--btn-color);
+}
+
+.btn:hover {
+  --btn-backgound-color: var(--brand-gradient);
+  --btn-color: var(--surface-color);
+}
+
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: var(--fs-sm);
+}
+
+.btn-md {
+  padding: 0.75rem 1.5rem;
+  font-size: var(--fs-base);
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: var(--fs-lg);
+}
+
+.btn[aria-label] {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    inset: 0.09375rem;
+    background-color: var(--background-color);
+  }
+
+  &::after {    
+    /* Põe o aria-label como label */
+    content: attr(aria-label);
+    /* Não funciona no Responsively App */
+    background: var(--btn-backgound-color);
+    --webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    position: relative;
+    z-index: 1;
+  }
+}

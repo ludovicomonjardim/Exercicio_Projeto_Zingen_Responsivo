@@ -27,6 +27,18 @@
   gap: 1rem;
 }
 
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
 .container {
   --max-width: 375px;
   /* width = O menor valor entre o max-width e (100% menos o padding do eixo X (--px) das duas laterais) */
