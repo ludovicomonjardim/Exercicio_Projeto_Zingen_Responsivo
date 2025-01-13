@@ -52,7 +52,7 @@ html {
   font-weight: var(--fw-base);
   font-size: var(--fs-base);
   line-height: 1.6;
-  color: var(--text-color-praymary)
+  color: var(--text-color-primary)
 }
  
 body {
@@ -61,7 +61,7 @@ body {
   
 h1, h2, h3 {
   line-height: 1.2;
-  color: var(--text-color-praymary);
+  color: var(--text-color-praimary);
   font-weight: var(--fw-bold);
   /* -4% */
   letter-spacing: -0.04em; 
@@ -83,6 +83,14 @@ a {
   /* Para tirar a cor e o sublinhado */
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
 }
 
 ul[role="list"] {
