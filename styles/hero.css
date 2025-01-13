@@ -5,10 +5,6 @@
     width: 12.875rem;
   }
 
-  & img:first-child {
-    width: 12.875rem;
-  }
-
   & h1 {
     margin-top: 1rem;
   }
@@ -31,14 +27,9 @@
     background: url(../assets/images/bg-hero-desktop.svg) no-repeat bottom center/contain;
     padding-bottom: 15rem;
 
-    /* & img[scr*="music"] {
-      width: 25.75rem;
-    } */
-
-    & img:first-child {
+    & img[scr*="music"] {
       width: 25.75rem;
     }
-
     
     & h1 {
       margin-top: 1.5rem;
