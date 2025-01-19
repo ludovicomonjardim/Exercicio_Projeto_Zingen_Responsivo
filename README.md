@@ -29,14 +29,21 @@ Zingen é uma landing page responsiva desenvolvida para promover um aplicativo d
 - **SEO Friendly**: Utilização de boas práticas para otimização de motores de busca.
 
 ## Como Executar o Projeto
-1. Clone o repositório:
-   ~~~bash
-   git clone https://github.com/seu-usuario/zingen-landing-page.git
-   ~~~
-2. Acesse o diretório do projeto.
-3. Abra o arquivo `index.html` diretamente no navegador ou hospede-o em um servidor web.
+### Acessar Online
 
-Você também pode visualizar diretamente o projeto publicado: [Zingen Landing Page](https://ludovicomonjardim.github.io/Exercicio_Projeto_Zingen_Responsivo/).
+Você pode visualizar o projeto agora clicando neste link: [Zingen Landing Page](https://ludovicomonjardim.github.io/Exercicio_Projeto_Zingen_Responsivo/).
+
+### Executar Localmente
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/zingen-landing-page.git
+   ```
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd Zingen (por exemplo)
+   ```
+3. Abra o arquivo `index.html` no navegador de sua preferência.
 
 ## Tecnologias Utilizadas
 - **HTML5**: Estruturação do conteúdo.
