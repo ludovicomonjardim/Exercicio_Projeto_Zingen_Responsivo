@@ -21,7 +21,9 @@ Zingen é uma landing page responsiva desenvolvida para promover um aplicativo d
 - [Licença](#licença)
 
 ## Status do Projeto
-✅ Concluído. A landing page foi finalizada e está pronta para "uso"! 🎉
+✅ Concluído. A landing page foi finalizada e está pronta para a sua avaliação! 🎉
+
+⭐ Se curtir, no canto superior direito, deixe uma estrelinha pra gente. 😉 
 
 ## Features
 - **Interface Responsiva**: Adapta-se a diferentes dispositivos (mobile, tablet, desktop).
@@ -51,9 +53,11 @@ Você pode visualizar o projeto agora clicando neste link: [Zingen Landing Page]
 - **Boas Práticas de Responsividade**: Media queries e layout flexível.
 
 ## Autor
-Feito com ❤️ por **Ludovico Monjardim**. Entre em contato comigo!
+Feito com ❤️ por **Ludovico Monjardim**. 
 
 <img src="https://github.com/ludovicomonjardim/05---ImagensDiversasGitHub/blob/main/Foto%20Perfil_1.png" alt="Avatar Ludovico Monjardim" width="100" height="100">
+
+Entre em contato comigo!
 
 - **LinkedIn**: [Ludovico Monjardim](https://www.linkedin.com/in/ludovicomonjardim/)
 - **Email**: ludovico.monjardim.pro@gmail.com
